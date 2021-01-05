@@ -1,0 +1,5 @@
+MODULE ÊKS_M_RuntimeProgramModule
+PERS string ÊKS_D_FileID := "926ca350-0992-4a12-9340-14519449cd85";
+PROC ExecDynamicCut()
+ENDPROC
+ENDMODULE

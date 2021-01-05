@@ -48,7 +48,7 @@ namespace EnglishMuffinVision_AForge
                 Filter = "Image files (*.png;*.jpeg;*.bmp)|*.png;*.jpeg;*.bmp|All files (*.*)|*.*",
                 //openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
                 //InitialDirectory = "C:\\Users\\BrianWang\\Desktop\\English Muffin Scan\\Dec 1 2017"
-                InitialDirectory = "E:\\Brian\\Project 3 - English Muffin Onsite Data Gathering\\SK Foods On-Site Scan\\English Muffin\\Batch 1\\All Top"
+                InitialDirectory = "C:\\Users\\kai23\\Projects\\ABI\\EnglishMuffinVision_AForge\\Images\\English Muffin\\Batch 1\\All Top"
             };
             if (openFileDialog.ShowDialog() == true)
             {
@@ -238,8 +238,8 @@ namespace EnglishMuffinVision_AForge
                 // System.IO.File.WriteAllLines(@"C:\Users\Public\TestFolder\Histogram.txt", GrayImage1Histogram_str);
                 // E:\Brian\Project 3 - English Muffin Onsite Data Gathering\Data Analysis
                 //System.IO.File.WriteAllLines(@"E:\Brian\Project 3 - English Muffin Onsite Data Gathering\Data Analysis\Histogram.txt", GrayImage1Histogram_str);
-                bool fileExist = File.Exists("E:\\Brian\\Projects\\Project 3 - English Muffin Onsite Data Gathering\\Data Analysis\\Data.csv");
-                using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"E:\Brian\Projects\Project 3 - English Muffin Onsite Data Gathering\Data AnalysisData.csv", true))
+                bool fileExist = File.Exists("C:\\Users\\kai23\\Projects\\ABI\\EnglishMuffinVision_AForge\\Data Analysis\\Data.csv");
+                using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\kai23\Projects\ABI\EnglishMuffinVision_AForge\Data AnalysisData.csv", true))
                 {
                     if (!fileExist)
                     {
@@ -515,7 +515,7 @@ namespace EnglishMuffinVision_AForge
                 //string path = @"E:\Brian\Project 3 - English Muffin Onsite Data Gathering\SK Foods On-Site Scan\English Muffin\Batch 3\All Bottom";
                 
 
-                string path = "E:\\Brian\\Projects\\Project 3 - English Muffin Onsite Data Gathering\\SK Foods On-Site Scan\\English Muffin\\" + folderSettingText;
+                string path = "C:\\Users\\kai23\\Projects\\ABI\\EnglishMuffinVision_AForge\\Images\\English Muffin\\" + folderSettingText;
                 string searchPattern = "æKatanaScoring_CameraImageGray1*";
                 try
                 {
@@ -670,9 +670,9 @@ namespace EnglishMuffinVision_AForge
                         // E:\Brian\Project 3 - English Muffin Onsite Data Gathering\Data Analysis
                         //System.IO.File.WriteAllLines(@"E:\Brian\Project 3 - English Muffin Onsite Data Gathering\Data Analysis\Histogram.txt", GrayImage1Histogram_str);
 
-                        bool fileExist = File.Exists("E:\\Brian\\Projects\\Project 3 - English Muffin Onsite Data Gathering\\Data Analysis\\Data.csv");
+                        bool fileExist = File.Exists("C:\\Users\\kai23\\Projects\\ABI\\EnglishMuffinVision_AForge\\Data Analysis\\Data.csv");
 
-                        using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"E:\Brian\Projects\Project 3 - English Muffin Onsite Data Gathering\Data Analysis\Data.csv", true))
+                        using (System.IO.StreamWriter file = new System.IO.StreamWriter(@"C:\Users\kai23\Projects\ABI\EnglishMuffinVision_AForge\Data Analysis\Data.csv", true))
                         {
                             if (!fileExist)
                             {
